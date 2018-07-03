@@ -13,5 +13,9 @@ contract Whitelist {
   0x583031D1113aD414F02576BD6afaBfb302140225,
   0xdD870fA1b7C4700F2BD7f44238821C26f7392148
   ];
+  
+  function getWhitelistEntries() public view returns (address []){
+     return whitelist;
+  }
     
 }
